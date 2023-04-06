@@ -1,0 +1,21 @@
+.user-image{
+    width: 100px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 800px) {
+    .container{
+        padding: 0;
+        }
+    .login-img {
+        display: none;
+    }
+    form{
+        flex-basis: 100%;
+    }
+    input{
+        width: 100%;
+    }
+}
